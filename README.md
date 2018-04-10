@@ -26,15 +26,16 @@
 
   Add 
   
-      ```
-        echo  'alias dp="docker-compose"'  >> ~/.zshrc
-      ``` 
+  `
+    echo  'alias dp="docker-compose"'  >> ~/.zshrc
+  ` 
   
   (~/.zshrc or ~/.bashrc) to the last line in any of your shell config file. Then operation 
   
-      ```
-      source ~/.zshrc 
-      ```
+
+  `
+  source ~/.zshrc 
+  `
   
    So we can use ***dp*** command short for ****docker-compose***.
   
