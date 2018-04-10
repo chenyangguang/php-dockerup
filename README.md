@@ -16,9 +16,9 @@
   
 # Install
 
-  <pre>
+  <pre><code>
   git clone https://github.com/chenyangguang/php-dockerup.git 
-  <code>
+  </code></pre>
   
 # Up and down work
   `docker-compose up -d `
