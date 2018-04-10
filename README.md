@@ -3,11 +3,11 @@
    
 # Dir tree
 
-<pre>
+`
 ├── docker-compose.yml
 ├── sme
 └── sme.conf
-<code>
+`
 
 # Depends 
   * [docker install](https://docs.docker.com/install/#supported-platforms)
