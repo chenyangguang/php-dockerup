@@ -17,6 +17,18 @@ services:
             - "./sme:/sme"
         networks:
             - "sme-network"
+    mysql:
+      image: "mysql:latest"
+      volumes:
+        - "./data/db:/var/lib/mysql"
+      restart: "always"
+      ports:
+        - "8989:3306"
+      environment:
+        MYSQL_DATABASE: "sme"
+        MYSQL_USER: "sme"
+        MYSQL_PASSWORD: "Echo0618"
+        MYSQL_ROOT_PASSWORD: "Echo0618"
 networks:
     sme-network:
         driver: "bridge"

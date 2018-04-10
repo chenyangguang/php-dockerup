@@ -1,16 +1,18 @@
-# php-dockerup
-   A simple docker environment with nginx & php-fpm.
+# PHP dockerup
+
+   A simple docker environment with nginx & php-fpm & mysql.
    
 # Depends 
+
   * [docker install](https://docs.docker.com/install/#supported-platforms)
   
   * [docker-compose install](https://github.com/chenyangguang/php-dockerup/edit/master/README.md)
   
 # Install
 
-  <pre><code>
+`
   git clone https://github.com/chenyangguang/php-dockerup.git 
-  </code></pre>
+`
   
 # Up and down work
 
@@ -24,11 +26,15 @@
 
   Add 
   
-      `echo  'alias dp="docker-compose"'  >> ~/.zshrc` 
+      ```
+        echo  'alias dp="docker-compose"'  >> ~/.zshrc
+      ``` 
   
-  (~/.zshrc or ~/.bashrc) to the last line in any of yourself shell config file. Then 
+  (~/.zshrc or ~/.bashrc) to the last line in any of your shell config file. Then operation 
   
-      `source ~/.zshrc` 
+      ```
+      source ~/.zshrc 
+      ```
   
-   So we can use *dp* command short for *docker-compose*.
+   So we can use ***dp*** command short for ****docker-compose***.
   
