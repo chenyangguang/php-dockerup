@@ -2,18 +2,23 @@
    A simple docker environment with nginx & php-fpm.
    
 # Dir tree
+
 <pre>
 ├── docker-compose.yml
 ├── sme
 └── sme.conf
 <code>
+
 # Depends 
   * [docker install](https://docs.docker.com/install/#supported-platforms)
   
   * [docker-compose install](https://github.com/chenyangguang/php-dockerup/edit/master/README.md)
   
 # Install
-  <pre>git clone https://github.com/chenyangguang/php-dockerup.git <code>
+
+  <pre>
+  git clone https://github.com/chenyangguang/php-dockerup.git 
+  <code>
   
 # Up and down work
   `docker-compose up -d `
